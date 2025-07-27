@@ -176,3 +176,4 @@ cython_debug/
 
 #DODAJĘ TO RĘCZNIE BO CHYBA NIE CHCEMY TEGO FOLDERU, UWAGA!!!
 .idea/
+static/plots/

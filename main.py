@@ -11,7 +11,7 @@ PNG_PATH = 'static/risk_map.png'
 if not os.path.exists("static/hiking_trails.geojson"):
     get_routes_to_json()
 
-
+os.makedirs("static/plots", exist_ok=True)
 
 
 if __name__ == "__main__":
@@ -20,4 +20,4 @@ if __name__ == "__main__":
         print("Baza danych została zainicjalizowana.")
     print(weather_icon(1))
     print(get_avalanche_risk_topr())
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
