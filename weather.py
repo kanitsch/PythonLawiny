@@ -14,8 +14,8 @@ from PIL import Image
 import os
 import time
 import threading
-import locale
-locale.setlocale(locale.LC_TIME, "polish")
+# import locale
+# locale.setlocale(locale.LC_TIME, "pl_PL.UTF-8")
 lock = threading.Lock()
 
 # Setup the Open-Meteo API client with cache and retry on error
