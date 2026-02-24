@@ -13,11 +13,11 @@ Aplikacja skierowana jest do turystów zimowych, skiturowców oraz wszystkich os
 - Możliwość włączenia **nakładki lawinowej**, generowanej na podstawie:
   - nachylenia stoku  
   - wystawy (ekspozycji względem stron świata)  
-  - aktualnych warunków pogodowych  
-- Dodawanie przez użytkowników własnych znaczników (np. obserwacji lawinowych)
+  - warunków pogodowych  
+- Dodawanie przez użytkowników znaczników (np. obserwacji lawinowych)
 
 ### Pogoda
-- aktualna prognozę pogody  
+- aktualna prognoza pogody  
 - wykresy parametrów meteorologicznych  
 - dane historyczne  
 - ostrzeżenia lawinowe  
@@ -34,4 +34,5 @@ Aplikacja skierowana jest do turystów zimowych, skiturowców oraz wszystkich os
 docker compose up
 ```
 3. Zaczekaj aż aplikacja się uruchomi, a następnie otwórz w przeglądarce http://localhost:5000
+
 
